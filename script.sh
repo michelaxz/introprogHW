@@ -62,7 +62,7 @@ if [ ! -f  movies.dat ]; then
 fi
 
 # 4. look at first 4 rows of downloaded data in `movies.dat`. look at this output and try to understand how it is structured. the file ending is `dat`. however, how could you also denominate such a file?
-head -n 4 movies.dat   # 
+head -n 4 movies.dat   # a csv file with `::` as separator
 
 
 # 5. look at first 4 rows of downloaded data in `movies.dat` redirect to a file called `first4.txt`
